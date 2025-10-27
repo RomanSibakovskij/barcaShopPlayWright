@@ -1,16 +1,12 @@
-name: Barca Shop Web Demo App PlayWright CI run with Maven
-
+name: Barca Shop Demo Web App PlayWright Java CI run with Maven
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 21
@@ -20,20 +16,23 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
-    # Install Chrome browser before running the test
-    - name: Install Chrome
+    # Install Playwright and browsers
+    - name: Install Playwright Browsers
       run: |
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
-
-    # Build the Maven and run the test    
+        mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
+        
+    # Build the Maven project    
     - name: Build with Maven
-      run: mvn -B package --file pom.xml    
-
+      run: mvn -B compile --file pom.xml
+      
+    # Run Playwright tests
+    - name: Run Playwright tests
+      run: mvn test
+      
     # Test report compilation step
     - name: Compile Test Report
       run: mvn surefire-report:report
-
+      
     #Upload test results into a report
     - name: Upload Test Results
       uses: actions/upload-artifact@v4
