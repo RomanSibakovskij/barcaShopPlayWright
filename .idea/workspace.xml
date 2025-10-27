@@ -19,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -30,56 +33,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.CheckoutPageTest.multipleShopDashProductsCheckoutRegUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CheckoutPageTest.multipleShopDashProductsToCheckoutGuestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CheckoutPageTest.removeMultipleShopDashProductsFromCheckoutGuestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CheckoutPageTest.removeSingleShopDashProductFromCheckoutGuestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CheckoutPageTest.singleShopDashProductCheckoutGuestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CheckoutPageTest.singleShopDashProductCheckoutRegUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CheckoutPageTest.updateSingleShopDashProductInCheckoutGuestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HomePageTest.userNavigateToSignUpPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginPageTest.invalidUserAccLoginInvalidEmailFormatTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginPageTest.invalidUserAccLoginInvalidEmailTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginPageTest.invalidUserAccLoginInvalidPasswordTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginPageTest.invalidUserAccLoginNoEmailTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginPageTest.invalidUserAccLoginNoPasswordTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginPageTest.validUserAccLoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoginPageTest.validUserAccLogoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationExistingEmailTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationInvalidDisplayNameFormatTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationInvalidEmailFormatTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationMismatchingConfirmPasswordTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationNoDisplayNameTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationNoEmailTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationNoPasswordTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationTooLongDisplayNameTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationTooLongEmailTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationTooLongPasswordTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationTooShortDisplayNameTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationTooShortEmailTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.invalidUserAccCreationTooShortPasswordTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RegisterPageTest.validUserAccCreationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShopDashboardPageTest.addMultipleShopDashProductsToShopCartModalGuestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShopDashboardPageTest.addMultipleShopDashProductsToShopCartModalRegUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShopDashboardPageTest.addSingleShopDashProductToShopCartModalGuestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShopDashboardPageTest.addSingleShopDashProductToShopCartModalRegUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShopDashboardPageTest.removeMultipleProductFromShopCartModalGuestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShopDashboardPageTest.removeSingleProductFromShopCartModalGuestTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/IntellijAqua Playwright projects/barcaShopPlayWright/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;web.inspector.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CheckoutPageTest.multipleShopDashProductsCheckoutRegUserTest.executor": "Run",
+    "JUnit.CheckoutPageTest.multipleShopDashProductsToCheckoutGuestTest.executor": "Run",
+    "JUnit.CheckoutPageTest.removeMultipleShopDashProductsFromCheckoutGuestTest.executor": "Run",
+    "JUnit.CheckoutPageTest.removeSingleShopDashProductFromCheckoutGuestTest.executor": "Run",
+    "JUnit.CheckoutPageTest.singleShopDashProductCheckoutGuestTest.executor": "Run",
+    "JUnit.CheckoutPageTest.singleShopDashProductCheckoutRegUserTest.executor": "Run",
+    "JUnit.CheckoutPageTest.updateSingleShopDashProductInCheckoutGuestTest.executor": "Run",
+    "JUnit.HomePageTest.userNavigateToSignUpPageTest.executor": "Run",
+    "JUnit.LoginPageTest.invalidUserAccLoginInvalidEmailFormatTest.executor": "Run",
+    "JUnit.LoginPageTest.invalidUserAccLoginInvalidEmailTest.executor": "Run",
+    "JUnit.LoginPageTest.invalidUserAccLoginInvalidPasswordTest.executor": "Run",
+    "JUnit.LoginPageTest.invalidUserAccLoginNoEmailTest.executor": "Run",
+    "JUnit.LoginPageTest.invalidUserAccLoginNoPasswordTest.executor": "Run",
+    "JUnit.LoginPageTest.validUserAccLoginTest.executor": "Run",
+    "JUnit.LoginPageTest.validUserAccLogoutTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationExistingEmailTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationInvalidDisplayNameFormatTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationInvalidEmailFormatTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationMismatchingConfirmPasswordTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationNoDisplayNameTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationNoEmailTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationNoPasswordTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationTooLongDisplayNameTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationTooLongEmailTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationTooLongPasswordTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationTooShortDisplayNameTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationTooShortEmailTest.executor": "Run",
+    "JUnit.RegisterPageTest.invalidUserAccCreationTooShortPasswordTest.executor": "Run",
+    "JUnit.RegisterPageTest.validUserAccCreationTest.executor": "Run",
+    "JUnit.ShopDashboardPageTest.addMultipleShopDashProductsToShopCartModalGuestTest.executor": "Run",
+    "JUnit.ShopDashboardPageTest.addMultipleShopDashProductsToShopCartModalRegUserTest.executor": "Run",
+    "JUnit.ShopDashboardPageTest.addSingleShopDashProductToShopCartModalGuestTest.executor": "Run",
+    "JUnit.ShopDashboardPageTest.addSingleShopDashProductToShopCartModalRegUserTest.executor": "Run",
+    "JUnit.ShopDashboardPageTest.removeMultipleProductFromShopCartModalGuestTest.executor": "Run",
+    "JUnit.ShopDashboardPageTest.removeSingleProductFromShopCartModalGuestTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/IntellijAqua Playwright projects/barcaShopPlayWright/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "web.inspector.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />

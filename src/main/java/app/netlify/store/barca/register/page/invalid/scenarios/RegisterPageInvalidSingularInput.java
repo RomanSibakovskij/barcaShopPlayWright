@@ -93,7 +93,7 @@ public class RegisterPageInvalidSingularInput extends BasePage {
         System.out.println("Invalid user generated register input data (no password): " + "\n");
 
         logger.info("Valid user generated display name (no password): " + registerDisplayName);
-        logger.info("Valid user generated email (no password): " + noRegisterEmail);
+        logger.info("Valid user generated email (no password): " + registerEmail);
         logger.info("No user generated password: " + noRegisterPassword);
 
         System.out.println("\n");
@@ -211,7 +211,7 @@ public class RegisterPageInvalidSingularInput extends BasePage {
         System.out.println("Invalid user generated register input data (too long password): " + "\n");
 
         logger.info("Valid user generated display name (too long password): " + registerDisplayName);
-        logger.info("Valid user generated email (too long password): " + noRegisterEmail);
+        logger.info("Valid user generated email (too long password): " + tooLongRegisterEmail);
         logger.info("Too long user generated password: " + tooLongRegisterPassword);
         logger.info("Too long matching user generated confirm password: " + tooLongRegisterPassword);
 
